@@ -1,0 +1,2 @@
+class Chord:
+    pass

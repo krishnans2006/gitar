@@ -1,0 +1,9 @@
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from gitar.models.song import Song
+
+
+class ChordPlayer:
+    def __init__(self, song: Song):
+        self.song = song
