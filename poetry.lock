@@ -307,6 +307,16 @@ files = [
 ]
 
 [[package]]
+name = "pause"
+version = "0.3"
+description = "A timestamp-based sleep function for Python."
+optional = false
+python-versions = "*"
+files = [
+    {file = "pause-0.3.tar.gz", hash = "sha256:82284ec6213376f718a86a51cf1df04eaa77ce85e349bff63c0071e7db33daba"},
+]
+
+[[package]]
 name = "platformdirs"
 version = "4.0.0"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
@@ -419,4 +429,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "6e5c91ed6bb869210edd0dd3f4d1a5b735a60e3130f95f677b38358af1473c2f"
+content-hash = "d474e0ba813f91bc310c34457c5ae0f4b8a9af539c5e123f5edb9cccb8369972"
