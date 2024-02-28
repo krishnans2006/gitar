@@ -13,12 +13,14 @@ void setup() {
   Serial.begin(9600);
   Serial.println("Stepper test!");
   // setSpeed(60) apparently sets the speed of the motor to 30 RPMs
-  stepper.setSpeed(5);
+  stepper.setSpeed(30);
 }
 
 void loop() {
   Serial.println("Forward");
-  stepper.step(STEPS / 10);
+  stepper.step(STEPS / 8);
+  delay(500);
   Serial.println("Backward");
-  stepper.step(-STEPS / 10);
+  stepper.step(-STEPS / 8);
+  delay(5000);
 }
